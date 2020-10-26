@@ -13,8 +13,8 @@ var transporter = nodemailer.createTransport({
 })
 
 var mailOptions = {
-    from: 'zirex28@gmail.com',
-    to: 'rolandadifandana@gmail.com',
+    from: 'emailsender',
+    to: 'reciever',
     subject: 'sending email using node.js',
     text: 'ini hanya percobaan',
     html: '<h1>Verification</h1><p>verify email this link</p> <a href="https://www.facebook.com/">here</a>'
